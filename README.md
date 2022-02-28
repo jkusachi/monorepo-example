@@ -15,3 +15,9 @@ Note - You don't need to pre-compile the `packages/common` code.  This is becaus
 
 `yarn server start`
 
+
+### Articles
+
+[https://github.com/CryogenicPlanet/typescript-monorepo-example](https://github.com/CryogenicPlanet/typescript-monorepo-example)
+
+[https://github.com/yakkomajuri/react-from-scratch](https://github.com/yakkomajuri/react-from-scratch)

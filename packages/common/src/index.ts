@@ -3,7 +3,11 @@ function main() {
 }
 
 export function sayHello() {
-  console.log("hello there!");
+  console.log("hello there! here i am. and here too");
+}
+
+export function getName() {
+  return "Kobe Bryant";
 }
 
 export default main;

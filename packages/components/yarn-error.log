@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn build
+
+PATH: 
+  /Users/jameskusachi/.zillow-bootstrap/bin:/Users/jameskusachi/.zillow-bootstrap/files/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin:/Users/jameskusachi/.serverless/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/bin:/Users/jameskusachi/Downloads/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Users/jameskusachi/.zillow-bootstrap/bin:/Users/jameskusachi/.zillow-bootstrap/files/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin:/Users/jameskusachi/.serverless/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home/bin:/Users/jameskusachi/Downloads/google-cloud-sdk/bin:/usr/local/opt/fzf/bin:~/.pyenv/versions/3.6.15/bin:~/.pyenv/versions/3.6.15/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jameskusachi/Developer/monorepo-example/packages/components/package.json: Unexpected token } in JSON at position 298
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@demo/components",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "@demo/common": "1.0.0",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "scripts": {
+      "dev": "yarn webpack serve --mode development",
+      "build": "tsc --build",
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.39",
+      "@types/react-dom": "^17.0.11",
+      "ts-loader": "^9.2.6",
+      "tsc-watch": "^4.6.0",
+      "webpack": "^5.69.1",
+      "webpack-cli": "^4.9.2",
+      "webpack-dev-server": "^4.7.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

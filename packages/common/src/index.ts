@@ -1,13 +1,19 @@
+import isEven from "is-even";
+
 function main() {
-  console.log("Hello from common package");
+  console.log("This is the main");
 }
 
 export function sayHello() {
-  console.log("hello there! here i am. and here too");
+  console.log("I am saying Hello");
 }
 
 export function getName() {
-  return "Kobe Bryant";
+  return "Lebron James " + isEven(1);
+}
+
+export function outputName(name: string) {
+  return `Lebron James is not ${name.toUpperCase()}`;
 }
 
 export default main;

@@ -1,7 +1,9 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist/",
+    "composite": true,
+    "rootDir": "src",
+    "outDir": "dist",
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
@@ -12,6 +14,5 @@
     "esModuleInterop": true,
   },
   "include": ["src"],
-  "exclude": ["dist"],
-  "references": [{ "path": "../common" }, { "path": "../components" }]
+  "references": [{ "path": "../common" }]
 }

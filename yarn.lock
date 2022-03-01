@@ -209,6 +209,13 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@demo/common@1.0.0":
+  version "1.0.0"
+  resolved "http://localhost:4873/@demo%2fcommon/-/common-1.0.0.tgz#93fd15bc059d0e5e30234f7a529e6076fdc9d24b"
+  integrity sha512-MyZX//5vyX/as+YYxFfrfBlVvLEW5RTXyP7WsCyF1EO8cQN0B368ZFSdrapuKofsy7WQYVxN2ER8vdAj/x0dBA==
+  dependencies:
+    is-even "^1.0.0"
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"

@@ -13,7 +13,7 @@ export function getName() {
 }
 
 export function outputName(name: string) {
-  return `Lebron James is not ${name.toUpperCase()}`;
+  return `${name.toUpperCase()} likes the Lakers`;
 }
 
 export default main;

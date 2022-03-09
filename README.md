@@ -75,3 +75,7 @@ Note - You don't need to pre-compile the `packages/common` code.  This is becaus
 ### Publishing
 
 TBD - probably use lerna 
+
+
+**Inside of a package/* **
+* `yarn npm publish`
